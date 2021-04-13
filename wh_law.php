@@ -2,7 +2,7 @@
 
 /*
 
-Передать лида можно POST методом на https://lawtask.ru/wh_law.php
+Передать лида можно POST методом на https://lawtask.ru/wh2.php
 Важно корректно указать ключи передаваемого массива, чтобы на входе разобрать где имя, а где город.
 
 */
@@ -25,7 +25,7 @@ foreach ($post as $key => $value) {
 
 // отправляем
 
-$url = 'https://lawtask.ru/wh_law.php';
+$url = 'https://lawtask.ru/wh2.php';
 	
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
